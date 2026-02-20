@@ -1,17 +1,17 @@
 import { motion, useMotionValue, useTransform, useInView } from 'motion/react';
 import { useState, useRef, useEffect, memo, useMemo } from 'react';
-import ringImage from 'figma:asset/1dd76164e8cd3bfee22f4b3f4a5fb92822068579.png';
-import weightsMaskImage from 'figma:asset/b583c3d0283211ec16195f4a5a5a5cba0f202489.png';
-import backgroundWithWeights from 'figma:asset/b59efb1054b8306e12f38ccdf836905f73415cd1.png';
-import backgroundWithWeightsMobile from 'figma:asset/5fb39628f245f0af6d2e20e9b5468356546cf8fb.png';
-import chainLinkHorizontal from 'figma:asset/35747f0834e86f22a9214abe251e58e984a85239.png';
-import chainLinkVertical from 'figma:asset/edc29ae7e0d254930c4c69a8a9d7a48dd6e0c2b4.png';
-import slide2Image from 'figma:asset/f53480cc97bf677d6d075493083c3e3d6eb08ed8.png';
-import carouselImage1 from 'figma:asset/8ed66c3c4d4cd5a3780b1cb7e871dff2b4e8fb30.png';
-import carouselImage2 from 'figma:asset/8acc61aa8916f66533147e3e5542e476b65283e8.png';
-import logoImage from 'figma:asset/e3b67df63ce0fa3a5feedd58f9117c00106d9fbe.png';
-import newBackgroundDesktop from 'figma:asset/71fa5f81239abbaddcdc4b2fb49d329b7221e544.png';
-import newMaskDesktop from 'figma:asset/ce34b7e357d08b03fbe7bfc5ba2f9dd39ccb5087.png';
+import ringImage from '../assets/heavy-ring/ringImage.png';
+import weightsMaskImage from '../assets/heavy-ring/weightsMaskImage.png';
+import backgroundWithWeights from '../assets/heavy-ring/backgroundWithWeights.png';
+import backgroundWithWeightsMobile from '../assets/heavy-ring/backgroundWithWeightsMobile.png';
+import chainLinkHorizontal from '../assets/heavy-ring/chainLinkHorizontal.png';
+import chainLinkVertical from '../assets/heavy-ring/chainLinkVertical.png';
+import slide2Image from '../assets/heavy-ring/slide2Image.png';
+import carouselImage1 from '../assets/heavy-ring/carouselImage1.png';
+import carouselImage2 from '../assets/heavy-ring/carouselImage2.png';
+import logoImage from '../assets/heavy-ring/logoImage.png';
+import newBackgroundDesktop from '../assets/heavy-ring/newBackgroundDesktop.png';
+import newMaskDesktop from '../assets/heavy-ring/newMaskDesktop.png';
 
 interface HeavyRingContentProps {
   onBack: () => void;

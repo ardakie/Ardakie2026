@@ -1,18 +1,18 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect, useRef } from 'react';
 import { ChevronUp, X } from 'lucide-react';
-import logoImage from 'figma:asset/e6578e36df0068129beee5fa033a945ca20b606f.png';
-import piggyImage1 from 'figma:asset/303ea44ee8d45b92ed708aa8f04dd39b7d02554e.png';
-import piggyImage2 from 'figma:asset/1d0b24abe08602f8b743de302d3f4bcd1b07c6b4.png';
-import tapToSaveImage from 'figma:asset/1299c1da88e9f43000278016cdc1a5a3d87d44cc.png';
-import only400Image from 'figma:asset/5a1bb24248dd4e8d7cac5cb955d7085030effbc3.png';
-import displayOnlyImage from 'figma:asset/a97f3178a05fd22780b9cb92350ea42ae326d97d.png';
-import cursorImage from 'figma:asset/cdb2ffeee07342b813a399487ceed715208422f4.png';
-import collectorsImage from 'figma:asset/e9b575b21f9e3da2e1fdfa7803efe28f4b4cd91f.png';
-import seeThePieceImage from 'figma:asset/949b12a9353f0033a4325256b3bdeb597e27ffae.png';
-import productImage1 from 'figma:asset/9db63ee30e542d6debc5faf89301fb14168a84b5.png';
-import productImage2 from 'figma:asset/6f96b792dd8e4fb4aaa7fe5e95b63c71bc8dd967.png';
-import productImage3 from 'figma:asset/73b3744bc191f127d01db86f7566dcf2d5847635.png';
+import logoImage from '../assets/piggy-bank/logoImage.png';
+import piggyImage1 from '../assets/piggy-bank/piggyImage1.png';
+import piggyImage2 from '../assets/piggy-bank/piggyImage2.png';
+import tapToSaveImage from '../assets/piggy-bank/tapToSaveImage.png';
+import only400Image from '../assets/piggy-bank/only400Image.png';
+import displayOnlyImage from '../assets/piggy-bank/displayOnlyImage.png';
+import cursorImage from '../assets/piggy-bank/cursorImage.png';
+import collectorsImage from '../assets/piggy-bank/collectorsImage.png';
+import seeThePieceImage from '../assets/piggy-bank/seeThePieceImage.png';
+import productImage1 from '../assets/piggy-bank/productImage1.png';
+import productImage2 from '../assets/piggy-bank/productImage2.png';
+import productImage3 from '../assets/piggy-bank/productImage3.png';
 
 interface PiggyBankContentProps {
   onBack: () => void;

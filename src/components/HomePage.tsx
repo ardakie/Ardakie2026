@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { useState, useCallback, useMemo, useEffect, useRef } from 'react';
-import logoImage from 'figma:asset/b75c82f2759c60bda51449a9c6cbe4c452606c5e.png';
+import logoImage from '../assets/file-flakes/logoImage.png';
 
 interface HomePageProps {
   onSectionClick: (section: string) => void;

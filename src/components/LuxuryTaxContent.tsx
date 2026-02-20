@@ -1,13 +1,13 @@
 import { motion, useInView } from 'motion/react';
 import { useState, useRef, useCallback, useEffect } from 'react';
-import luxuryTaxImageDesktop from 'figma:asset/d2bb77bfe343f4dd01e0d0685046dd955320dc63.png';
-import luxuryTaxImageMobile from 'figma:asset/f5131ea865d84df984b183405cbed4e9e12c6a0f.png';
-import luxuryTaxImage2Desktop from 'figma:asset/94e18505e97ca328a2df5017b9873cf04d2a74f3.png';
-import luxuryTaxImage2Mobile from 'figma:asset/00fbc80764e240617e964454f23d8c0bfdbe0159.png';
-import luxuryTaxImage3Desktop from 'figma:asset/b292685d6a9c7cd813b043deeb39ae203bb0a640.png';
-import luxuryTaxImage3Mobile from 'figma:asset/d1d3db4fd565600a8f60455e8483fe79cd665967.png';
-import cursorImagePath from 'figma:asset/b1e5e29251619866fb1746252056f5feadd9eed7.png';
-import logoImage from 'figma:asset/c49a1aab71dcc7c317f91fee4d5939c60d1b7258.png';
+import luxuryTaxImageDesktop from '../assets/luxury-tax/luxuryTaxImageDesktop.png';
+import luxuryTaxImageMobile from '../assets/luxury-tax/luxuryTaxImageMobile.png';
+import luxuryTaxImage2Desktop from '../assets/luxury-tax/luxuryTaxImage2Desktop.png';
+import luxuryTaxImage2Mobile from '../assets/luxury-tax/luxuryTaxImage2Mobile.png';
+import luxuryTaxImage3Desktop from '../assets/luxury-tax/luxuryTaxImage3Desktop.png';
+import luxuryTaxImage3Mobile from '../assets/luxury-tax/luxuryTaxImage3Mobile.png';
+import cursorImagePath from '../assets/luxury-tax/cursorImagePath.png';
+import logoImage from '../assets/luxury-tax/logoImage.png';
 
 interface LuxuryTaxContentProps {
   onBack: () => void;

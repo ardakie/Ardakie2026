@@ -1,16 +1,16 @@
 import { motion } from 'motion/react';
 import { useState, useEffect } from 'react';
-import nugget1 from 'figma:asset/87c6e5633d3b86a90a606b4576db9ad8b897bf65.png';
-import nugget2 from 'figma:asset/a87e23c7309a855b0053f7c274dca265018f28b9.png';
-import nugget3 from 'figma:asset/e0f540fb96bc0ee236bf97932db3e49a4c3ec7e7.png';
-import nugget4 from 'figma:asset/1b901894fd12885c5205e8ec935ca0b0fdf63d3c.png';
-import nugget5 from 'figma:asset/36849b0161ba777bbf741817f3817f3d9903e79b.png';
-import nugget6 from 'figma:asset/8ff963d42fb8356787a618b3a6f4f440b5c86979.png';
-import boxImage from 'figma:asset/bdaee6c6bd1633df650705c0e070dc9b548c71df.png';
-import dinoLogo from 'figma:asset/011581239f3540ba8af2291c98cfb1d8ff3ce364.png';
-import heroBackground from 'figma:asset/4f7be6a6028066a8e1544e366fe8dcab93cf443d.png';
-import heroBackgroundMobile from 'figma:asset/0232ca3c7ee03925508aea660aad850786177447.png';
-import burntBadge from 'figma:asset/6188d4c3025f609c0ac141d5ffc840a9136523da.png';
+import nugget1 from '../assets/dino-nugget/nugget1.png';
+import nugget2 from '../assets/dino-nugget/nugget2.png';
+import nugget3 from '../assets/dino-nugget/nugget3.png';
+import nugget4 from '../assets/dino-nugget/nugget4.png';
+import nugget5 from '../assets/dino-nugget/nugget5.png';
+import nugget6 from '../assets/dino-nugget/nugget6.png';
+import boxImage from '../assets/dino-nugget/boxImage.png';
+import dinoLogo from '../assets/dino-nugget/dinoLogo.png';
+import heroBackground from '../assets/dino-nugget/heroBackground.png';
+import heroBackgroundMobile from '../assets/dino-nugget/heroBackgroundMobile.png';
+import burntBadge from '../assets/dino-nugget/burntBadge.png';
 
 interface DinoNuggetContentProps {
   onBack: () => void;

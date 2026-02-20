@@ -3,11 +3,11 @@ import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { ChevronUp, ChevronDown, Power } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import EntryVerificationPopup from './EntryVerificationPopup';
-import wishTotemImage from 'figma:asset/6981688d98a6c54a53247ebaa65c6f958eca594c.png';
-import silvaLeafImage from 'figma:asset/52f99575e762dadc68157672293e58f5725bc4be.png';
-import silenceCanImage from 'figma:asset/677a47650dba393cdfce78a30117f566ab3c41c4.png';
-import logoImage from 'figma:asset/b75c82f2759c60bda51449a9c6cbe4c452606c5e.png';
-import posterImage from 'figma:asset/ebb8bb32b8e0dea89f86ff9acdcc47b2bd33e4e1.png';
+import wishTotemImage from '../assets/multiverse-black-market/wishTotemImage.png';
+import silvaLeafImage from '../assets/multiverse-black-market/silvaLeafImage.png';
+import silenceCanImage from '../assets/multiverse-black-market/silenceCanImage.png';
+import logoImage from '../assets/file-flakes/logoImage.png';
+import posterImage from '../assets/five-minutes-silence/posterImage.png';
 
 interface MultiverseBlackMarketContentProps {
   onBack: () => void;

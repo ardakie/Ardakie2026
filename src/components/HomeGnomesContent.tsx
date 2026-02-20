@@ -2,16 +2,16 @@ import { motion } from 'motion/react';
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { AspectRatio } from './ui/aspect-ratio';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
-import gnomesImage from 'figma:asset/da7a3c1fe8d58d8bb395156f10749f56c83afe45.png';
-import maskImage from 'figma:asset/e76556b2c0ebc8f445d86596c24b2090479fadcd.png';
-import gnomesImageMobile from 'figma:asset/e0db25129eaacbca56f1ac856a99734ad1cfc5fc.png';
-import maskImageMobile from 'figma:asset/50b4e0e75a56e30dd5d7c3c83e3b26a7c66b1e8b.png';
-import logoImage from 'figma:asset/c92828cc1e101d259fe01f30c8b43a5b2b94cdab.png';
-import product1 from 'figma:asset/e87a0f6eedcf2605de14105ebff329021b199ebd.png';
-import product2 from 'figma:asset/a90d406f96bba310c5c07a56b56963589a6e2ccc.png';
-import product3 from 'figma:asset/84783afae28516fb279cc3a06a68209f8d7bc557.png';
-import product4 from 'figma:asset/c5e11c813c8241f445740d2e4bab7bc0a4fe2052.png';
-import product4Image2 from 'figma:asset/9c577e82f57156c6a76f20178ec6fefcd299f7a0.png';
+import gnomesImage from '../assets/home-gnomes/gnomesImage.png';
+import maskImage from '../assets/home-gnomes/maskImage.png';
+import gnomesImageMobile from '../assets/home-gnomes/gnomesImageMobile.png';
+import maskImageMobile from '../assets/home-gnomes/maskImageMobile.png';
+import logoImage from '../assets/home-gnomes/logoImage.png';
+import product1 from '../assets/home-gnomes/product1.png';
+import product2 from '../assets/home-gnomes/product2.png';
+import product3 from '../assets/home-gnomes/product3.png';
+import product4 from '../assets/home-gnomes/product4.png';
+import product4Image2 from '../assets/home-gnomes/product4Image2.png';
 
 interface HomeGnomesContentProps {
   onBack: () => void;

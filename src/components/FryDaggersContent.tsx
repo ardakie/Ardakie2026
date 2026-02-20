@@ -1,11 +1,11 @@
-import { motion, useInView, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'motion/react';
 import { useState, useRef, useCallback } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
-import daggerImage from 'figma:asset/a3122136c18b8746177bfceb8409e6ac3235f018.png';
-import heroImageMobile from 'figma:asset/775e0651d0a2fc10dd46d0098eab5c99416aba11.png';
-import heroImageDesktop from 'figma:asset/01835af4bd8307f4c8b7ea1e609f9c284dec1de3.png';
-import heroImageMobile2 from 'figma:asset/28a035d503dad50f3c542d3daa0fb63793b9c0d5.png';
-import heroImageDesktop2 from 'figma:asset/34a9ee9f12c176ad62bf5414a72c3f33843d0c0f.png';
+import daggerImage from '../assets/fry-daggers/daggerImage.png';
+import heroImageMobile from '../assets/fry-daggers/heroImageMobile.png';
+import heroImageDesktop from '../assets/fry-daggers/heroImageDesktop.png';
+import heroImageMobile2 from '../assets/fry-daggers/heroImageMobile2.png';
+import heroImageDesktop2 from '../assets/fry-daggers/heroImageDesktop2.png';
 
 interface FryDaggersContentProps {
   onBack: () => void;

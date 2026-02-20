@@ -1,16 +1,16 @@
-import { useRef, Suspense, useState, useEffect } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { useState, useRef, useEffect, useMemo, memo, Suspense } from 'react';
+import * as THREE from 'three';
 import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, PerspectiveCamera, useGLTF, Center } from '@react-three/drei';
-import * as THREE from 'three';
+import { motion, AnimatePresence } from 'motion/react';
 import { Pause, Play, ChevronLeft, ChevronRight, ChevronUp, ChevronDown } from 'lucide-react';
-import backgroundImage from 'figma:asset/05d680bd1e704bd836895cbd9cd2bd0c79ce9abb.png';
-import logoImage from 'figma:asset/b75c82f2759c60bda51449a9c6cbe4c452606c5e.png';
-import notification1Image from 'figma:asset/072991bb310d39ecb2293b9a1b92d7d8a5835571.png';
-import notification2Image from 'figma:asset/ef4be9c935a0f1fefdc228205c58df423030ca6b.png';
-import notification3Image from 'figma:asset/ccb4a33772c8e805b4ac190f749c86bc8d6abe8e.png';
-import product1Image from 'figma:asset/1d0677ffc9fbb5eb065e07a802e26f0291399a56.png';
-import product2Image from 'figma:asset/89b4b943833cca7e5beff5a05da9b4ecebf890c5.png';
+import backgroundImage from '../assets/file-flakes/backgroundImage.png';
+import logoImage from '../assets/file-flakes/logoImage.png';
+import notification1Image from '../assets/file-flakes/notification1Image.png';
+import notification2Image from '../assets/file-flakes/notification2Image.png';
+import notification3Image from '../assets/file-flakes/notification3Image.png';
+import product1Image from '../assets/file-flakes/product1Image.png';
+import product2Image from '../assets/file-flakes/product2Image.png';
 
 // Notification sound player - iPhone bildirim sesi
 // Web Audio API ile - arka plan sesini durdurmadan çalar

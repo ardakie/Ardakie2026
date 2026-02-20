@@ -1,14 +1,14 @@
 import { motion } from 'motion/react';
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
-import bearImage from 'figma:asset/e087f4f094577e04a5f76e903bef6e7050c4b06d.png';
-import maskImage from 'figma:asset/076a3e8e563f6c9c7516a7675be4d91e18761a9e.png';
-import bearImageMobile from 'figma:asset/67b313061ca302c2122a53094e505603dd38db4b.png';
-import maskImageMobile from 'figma:asset/311d438100cff10200c05b1fc9078235e9fb949e.png';
-import logoImage from 'figma:asset/60726b1b3091f43a763a0ef9c468634ee0d1c5f1.png';
-import inspectImage from 'figma:asset/ba94c76f37b2e8beebf3e7b27cc439642333babe.png';
-import inspectSlide1 from 'figma:asset/a5cfb9a07856cba0335af3d5c930a27debf69506.png';
-import inspectSlide2 from 'figma:asset/6cbe98e4650a873e6c445da4162b440e43504547.png';
+import bearImage from '../assets/ozempic-bear/bearImage.png';
+import maskImage from '../assets/ozempic-bear/maskImage.png';
+import bearImageMobile from '../assets/ozempic-bear/bearImageMobile.png';
+import maskImageMobile from '../assets/ozempic-bear/maskImageMobile.png';
+import logoImage from '../assets/ozempic-bear/logoImage.png';
+import inspectImage from '../assets/ozempic-bear/inspectImage.png';
+import inspectSlide1 from '../assets/ozempic-bear/inspectSlide1.png';
+import inspectSlide2 from '../assets/ozempic-bear/inspectSlide2.png';
 
 interface OzempicBearContentProps {
   onBack: () => void;

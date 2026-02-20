@@ -1,13 +1,13 @@
 import { motion } from 'motion/react';
-import dinoLogo from 'figma:asset/1dac0bada73c9a675d11784842cbfb9d3f940415.png';
-import fryLogo from 'figma:asset/859d7039de2c6dfbce8037bc6e754112df0470b0.png';
-import bearLogo from 'figma:asset/f8360a97097976c09d71565fb487148c29f2566c.png';
-import luxuryLogo from 'figma:asset/a33b796b9221686891136228ff377a1e289782e1.png';
-import gnomesLogo from 'figma:asset/74e760c01457d2b0cdecad53254197af6344d3a5.png';
-import heavyRingLogo from 'figma:asset/5a0a3c3497ebcf9e579ea5f2e73ffeaf7b8c26d2.png';
-import piggyBankLogo from 'figma:asset/73fb2ca114612038b657e453f518f72149d40069.png';
-import fileFlakesLogo from 'figma:asset/f53400a753dd5dc0d90bd05226c0a1e284f50b4e.png';
-import multiverseLogo from 'figma:asset/ea234ab423d289573b8a80e1b026eb6de4f712ec.png';
+import dinoLogo from '../assets/section-intro/dinoLogo.png';
+import fryLogo from '../assets/section-intro/fryLogo.png';
+import bearLogo from '../assets/section-intro/bearLogo.png';
+import luxuryLogo from '../assets/section-intro/luxuryLogo.png';
+import gnomesLogo from '../assets/section-intro/gnomesLogo.png';
+import heavyRingLogo from '../assets/section-intro/heavyRingLogo.png';
+import piggyBankLogo from '../assets/section-intro/piggyBankLogo.png';
+import fileFlakesLogo from '../assets/section-intro/fileFlakesLogo.png';
+import multiverseLogo from '../assets/section-intro/multiverseLogo.png';
 
 interface SectionIntroProps {
   section: string;

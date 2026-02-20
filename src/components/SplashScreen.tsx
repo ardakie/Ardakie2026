@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import logo from 'figma:asset/d88d5e5df971b5314a55f38fef7a3d682f121508.png';
+import logo from '../assets/splash-screen/logo.png';
 
 export default function SplashScreen() {
   return (
