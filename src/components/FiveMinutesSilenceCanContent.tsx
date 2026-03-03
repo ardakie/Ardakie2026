@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { useState, useRef, useEffect } from 'react';
 import { Power } from 'lucide-react';
-import posterImage from 'figma:asset/ebb8bb32b8e0dea89f86ff9acdcc47b2bd33e4e1.png';
+import posterImage from '@assets/five-minutes-silence/posterImage.png';
 
 interface FiveMinutesSilenceCanContentProps {
   onBack: () => void;
