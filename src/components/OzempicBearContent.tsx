@@ -1,14 +1,14 @@
 import { motion } from 'motion/react';
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
-import bearImage from '../assets/ozempic-bear/bearImage.png';
-import maskImage from '../assets/ozempic-bear/maskImage.png';
-import bearImageMobile from '../assets/ozempic-bear/bearImageMobile.png';
-import maskImageMobile from '../assets/ozempic-bear/maskImageMobile.png';
-import logoImage from '../assets/ozempic-bear/logoImage.png';
-import inspectImage from '../assets/ozempic-bear/inspectImage.png';
-import inspectSlide1 from '../assets/ozempic-bear/inspectSlide1.png';
-import inspectSlide2 from '../assets/ozempic-bear/inspectSlide2.png';
+import bearImage from '../assets/ozempic-bear/bearImage.webp';
+import maskImage from '../assets/ozempic-bear/maskImage.webp';
+import bearImageMobile from '../assets/ozempic-bear/bearImageMobile.webp';
+import maskImageMobile from '../assets/ozempic-bear/maskImageMobile.webp';
+import logoImage from '../assets/ozempic-bear/logoImage.webp';
+import inspectImage from '../assets/ozempic-bear/inspectImage.webp';
+import inspectSlide1 from '../assets/ozempic-bear/inspectSlide1.webp';
+import inspectSlide2 from '../assets/ozempic-bear/inspectSlide2.webp';
 
 interface OzempicBearContentProps {
   onBack: () => void;

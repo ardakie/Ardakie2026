@@ -1,13 +1,13 @@
 import { motion } from 'motion/react';
-import dinoLogo from '../assets/section-intro/dinoLogo.png';
-import fryLogo from '../assets/section-intro/fryLogo.png';
-import bearLogo from '../assets/section-intro/bearLogo.png';
-import luxuryLogo from '../assets/section-intro/luxuryLogo.png';
-import gnomesLogo from '../assets/section-intro/gnomesLogo.png';
-import heavyRingLogo from '../assets/section-intro/heavyRingLogo.png';
-import piggyBankLogo from '../assets/section-intro/piggyBankLogo.png';
-import fileFlakesLogo from '../assets/section-intro/fileFlakesLogo.png';
-import multiverseLogo from '../assets/section-intro/multiverseLogo.png';
+import dinoLogo from '../assets/section-intro/dinoLogo.webp';
+import fryLogo from '../assets/section-intro/fryLogo.webp';
+import bearLogo from '../assets/section-intro/bearLogo.webp';
+import luxuryLogo from '../assets/section-intro/luxuryLogo.webp';
+import gnomesLogo from '../assets/section-intro/gnomesLogo.webp';
+import heavyRingLogo from '../assets/section-intro/heavyRingLogo.webp';
+import piggyBankLogo from '../assets/section-intro/piggyBankLogo.webp';
+import fileFlakesLogo from '../assets/section-intro/fileFlakesLogo.webp';
+import multiverseLogo from '../assets/section-intro/multiverseLogo.webp';
 
 interface SectionIntroProps {
   section: string;

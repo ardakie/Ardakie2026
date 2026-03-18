@@ -1,18 +1,18 @@
 import { motion, AnimatePresence } from 'motion/react';
 import { useState, useEffect, useRef } from 'react';
 import { ChevronUp, X } from 'lucide-react';
-import logoImage from '../assets/piggy-bank/logoImage.png';
-import piggyImage1 from '../assets/piggy-bank/piggyImage1.png';
-import piggyImage2 from '../assets/piggy-bank/piggyImage2.png';
-import tapToSaveImage from '../assets/piggy-bank/tapToSaveImage.png';
-import only400Image from '../assets/piggy-bank/only400Image.png';
-import displayOnlyImage from '../assets/piggy-bank/displayOnlyImage.png';
-import cursorImage from '../assets/piggy-bank/cursorImage.png';
-import collectorsImage from '../assets/piggy-bank/collectorsImage.png';
-import seeThePieceImage from '../assets/piggy-bank/seeThePieceImage.png';
-import productImage1 from '../assets/piggy-bank/productImage1.png';
-import productImage2 from '../assets/piggy-bank/productImage2.png';
-import productImage3 from '../assets/piggy-bank/productImage3.png';
+import logoImage from '../assets/piggy-bank/logoImage.webp';
+import piggyImage1 from '../assets/piggy-bank/piggyImage1.webp';
+import piggyImage2 from '../assets/piggy-bank/piggyImage2.webp';
+import tapToSaveImage from '../assets/piggy-bank/tapToSaveImage.webp';
+import only400Image from '../assets/piggy-bank/only400Image.webp';
+import displayOnlyImage from '../assets/piggy-bank/displayOnlyImage.webp';
+import cursorImage from '../assets/piggy-bank/cursorImage.webp';
+import collectorsImage from '../assets/piggy-bank/collectorsImage.webp';
+import seeThePieceImage from '../assets/piggy-bank/seeThePieceImage.webp';
+import productImage1 from '../assets/piggy-bank/productImage1.webp';
+import productImage2 from '../assets/piggy-bank/productImage2.webp';
+import productImage3 from '../assets/piggy-bank/productImage3.webp';
 
 interface PiggyBankContentProps {
   onBack: () => void;

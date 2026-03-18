@@ -4,13 +4,13 @@ import { Canvas, useFrame } from '@react-three/fiber';
 import { OrbitControls, PerspectiveCamera, useGLTF, Center } from '@react-three/drei';
 import { motion, AnimatePresence } from 'motion/react';
 import { Pause, Play, ChevronLeft, ChevronRight, ChevronUp, ChevronDown } from 'lucide-react';
-import backgroundImage from '../assets/file-flakes/backgroundImage.png';
-import logoImage from '../assets/file-flakes/logoImage.png';
-import notification1Image from '../assets/file-flakes/notification1Image.png';
-import notification2Image from '../assets/file-flakes/notification2Image.png';
-import notification3Image from '../assets/file-flakes/notification3Image.png';
-import product1Image from '../assets/file-flakes/product1Image.png';
-import product2Image from '../assets/file-flakes/product2Image.png';
+import backgroundImage from '../assets/file-flakes/backgroundImage.webp';
+import logoImage from '../assets/file-flakes/logoImage.webp';
+import notification1Image from '../assets/file-flakes/notification1Image.webp';
+import notification2Image from '../assets/file-flakes/notification2Image.webp';
+import notification3Image from '../assets/file-flakes/notification3Image.webp';
+import product1Image from '../assets/file-flakes/product1Image.webp';
+import product2Image from '../assets/file-flakes/product2Image.webp';
 
 // Notification sound player - iPhone bildirim sesi
 // Web Audio API ile - arka plan sesini durdurmadan çalar

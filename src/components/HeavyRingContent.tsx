@@ -1,17 +1,17 @@
 import { motion, useMotionValue, useTransform, useInView } from 'motion/react';
 import { useState, useRef, useEffect, memo, useMemo } from 'react';
-import ringImage from '../assets/heavy-ring/ringImage.png';
-import weightsMaskImage from '../assets/heavy-ring/weightsMaskImage.png';
-import backgroundWithWeights from '../assets/heavy-ring/backgroundWithWeights.png';
-import backgroundWithWeightsMobile from '../assets/heavy-ring/backgroundWithWeightsMobile.png';
-import chainLinkHorizontal from '../assets/heavy-ring/chainLinkHorizontal.png';
-import chainLinkVertical from '../assets/heavy-ring/chainLinkVertical.png';
-import slide2Image from '../assets/heavy-ring/slide2Image.png';
-import carouselImage1 from '../assets/heavy-ring/carouselImage1.png';
-import carouselImage2 from '../assets/heavy-ring/carouselImage2.png';
-import logoImage from '../assets/heavy-ring/logoImage.png';
-import newBackgroundDesktop from '../assets/heavy-ring/newBackgroundDesktop.png';
-import newMaskDesktop from '../assets/heavy-ring/newMaskDesktop.png';
+import ringImage from '../assets/heavy-ring/ringImage.webp';
+import weightsMaskImage from '../assets/heavy-ring/weightsMaskImage.webp';
+import backgroundWithWeights from '../assets/heavy-ring/backgroundWithWeights.webp';
+import backgroundWithWeightsMobile from '../assets/heavy-ring/backgroundWithWeightsMobile.webp';
+import chainLinkHorizontal from '../assets/heavy-ring/chainLinkHorizontal.webp';
+import chainLinkVertical from '../assets/heavy-ring/chainLinkVertical.webp';
+import slide2Image from '../assets/heavy-ring/slide2Image.webp';
+import carouselImage1 from '../assets/heavy-ring/carouselImage1.webp';
+import carouselImage2 from '../assets/heavy-ring/carouselImage2.webp';
+import logoImage from '../assets/heavy-ring/logoImage.webp';
+import newBackgroundDesktop from '../assets/heavy-ring/newBackgroundDesktop.webp';
+import newMaskDesktop from '../assets/heavy-ring/newMaskDesktop.webp';
 
 interface HeavyRingContentProps {
   onBack: () => void;

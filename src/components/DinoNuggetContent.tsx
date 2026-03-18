@@ -1,16 +1,16 @@
 import { motion } from 'motion/react';
 import { useState, useEffect } from 'react';
-import nugget1 from '../assets/dino-nugget/nugget1.png';
-import nugget2 from '../assets/dino-nugget/nugget2.png';
-import nugget3 from '../assets/dino-nugget/nugget3.png';
-import nugget4 from '../assets/dino-nugget/nugget4.png';
-import nugget5 from '../assets/dino-nugget/nugget5.png';
-import nugget6 from '../assets/dino-nugget/nugget6.png';
-import boxImage from '../assets/dino-nugget/boxImage.png';
-import dinoLogo from '../assets/dino-nugget/dinoLogo.png';
-import heroBackground from '../assets/dino-nugget/heroBackground.png';
-import heroBackgroundMobile from '../assets/dino-nugget/heroBackgroundMobile.png';
-import burntBadge from '../assets/dino-nugget/burntBadge.png';
+import nugget1 from '../assets/dino-nugget/nugget1.webp';
+import nugget2 from '../assets/dino-nugget/nugget2.webp';
+import nugget3 from '../assets/dino-nugget/nugget3.webp';
+import nugget4 from '../assets/dino-nugget/nugget4.webp';
+import nugget5 from '../assets/dino-nugget/nugget5.webp';
+import nugget6 from '../assets/dino-nugget/nugget6.webp';
+import boxImage from '../assets/dino-nugget/boxImage.webp';
+import dinoLogo from '../assets/dino-nugget/dinoLogo.webp';
+import heroBackground from '../assets/dino-nugget/heroBackground.webp';
+import heroBackgroundMobile from '../assets/dino-nugget/heroBackgroundMobile.webp';
+import burntBadge from '../assets/dino-nugget/burntBadge.webp';
 
 interface DinoNuggetContentProps {
   onBack: () => void;

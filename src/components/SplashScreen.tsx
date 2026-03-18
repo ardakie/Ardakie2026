@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import logo from '../assets/splash-screen/logo.png';
+import logo from '../assets/splash-screen/logo.webp';
 
 export default function SplashScreen() {
   return (

@@ -3,10 +3,10 @@ import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import { ChevronUp, ChevronDown, Power } from 'lucide-react';
 import { ImageWithFallback } from './figma/ImageWithFallback';
 import EntryVerificationPopup from './EntryVerificationPopup';
-import wishTotemImage from '../assets/multiverse-black-market/wishTotemImage.png';
-import silvaLeafImage from '../assets/multiverse-black-market/silvaLeafImage.png';
-import silenceCanImage from '../assets/multiverse-black-market/silenceCanImage.png';
-import logoImage from '../assets/file-flakes/logoImage.png';
+import wishTotemImage from '../assets/multiverse-black-market/wishTotemImage.webp';
+import silvaLeafImage from '../assets/multiverse-black-market/silvaLeafImage.webp';
+import silenceCanImage from '../assets/multiverse-black-market/silenceCanImage.webp';
+import logoImage from '../assets/file-flakes/logoImage.webp';
 import posterImage from '../assets/five-minutes-silence/posterImage.png';
 
 interface MultiverseBlackMarketContentProps {

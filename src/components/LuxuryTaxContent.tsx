@@ -1,13 +1,13 @@
 import { motion, useInView } from 'motion/react';
 import { useState, useRef, useCallback, useEffect } from 'react';
-import luxuryTaxImageDesktop from '../assets/luxury-tax/luxuryTaxImageDesktop.png';
-import luxuryTaxImageMobile from '../assets/luxury-tax/luxuryTaxImageMobile.png';
-import luxuryTaxImage2Desktop from '../assets/luxury-tax/luxuryTaxImage2Desktop.png';
-import luxuryTaxImage2Mobile from '../assets/luxury-tax/luxuryTaxImage2Mobile.png';
-import luxuryTaxImage3Desktop from '../assets/luxury-tax/luxuryTaxImage3Desktop.png';
-import luxuryTaxImage3Mobile from '../assets/luxury-tax/luxuryTaxImage3Mobile.png';
-import cursorImagePath from '../assets/luxury-tax/cursorImagePath.png';
-import logoImage from '../assets/luxury-tax/logoImage.png';
+import luxuryTaxImageDesktop from '../assets/luxury-tax/luxuryTaxImageDesktop.webp';
+import luxuryTaxImageMobile from '../assets/luxury-tax/luxuryTaxImageMobile.webp';
+import luxuryTaxImage2Desktop from '../assets/luxury-tax/luxuryTaxImage2Desktop.webp';
+import luxuryTaxImage2Mobile from '../assets/luxury-tax/luxuryTaxImage2Mobile.webp';
+import luxuryTaxImage3Desktop from '../assets/luxury-tax/luxuryTaxImage3Desktop.webp';
+import luxuryTaxImage3Mobile from '../assets/luxury-tax/luxuryTaxImage3Mobile.webp';
+import cursorImagePath from '../assets/luxury-tax/cursorImagePath.webp';
+import logoImage from '../assets/luxury-tax/logoImage.webp';
 
 interface LuxuryTaxContentProps {
   onBack: () => void;

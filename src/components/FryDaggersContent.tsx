@@ -1,11 +1,11 @@
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence, useInView } from 'motion/react';
 import { useState, useRef, useCallback } from 'react';
 import { X, ChevronLeft, ChevronRight } from 'lucide-react';
-import daggerImage from '../assets/fry-daggers/daggerImage.png';
-import heroImageMobile from '../assets/fry-daggers/heroImageMobile.png';
-import heroImageDesktop from '../assets/fry-daggers/heroImageDesktop.png';
-import heroImageMobile2 from '../assets/fry-daggers/heroImageMobile2.png';
-import heroImageDesktop2 from '../assets/fry-daggers/heroImageDesktop2.png';
+import daggerImage from '../assets/fry-daggers/daggerImage.webp';
+import heroImageMobile from '../assets/fry-daggers/heroImageMobile.webp';
+import heroImageDesktop from '../assets/fry-daggers/heroImageDesktop.webp';
+import heroImageMobile2 from '../assets/fry-daggers/heroImageMobile2.webp';
+import heroImageDesktop2 from '../assets/fry-daggers/heroImageDesktop2.webp';
 
 interface FryDaggersContentProps {
   onBack: () => void;
@@ -175,7 +175,7 @@ export default function FryDaggersContent({ onBack }: FryDaggersContentProps) {
                   alt="FryDagger"
                   className="w-auto h-[200px]"
                   loading="eager"
-                  fetchpriority="high"
+                  fetchPriority="high"
                   style={{ filter: 'drop-shadow(0 10px 40px rgba(217, 217, 217, 0.5))' }}
                 />
               </motion.div>
@@ -305,7 +305,7 @@ export default function FryDaggersContent({ onBack }: FryDaggersContentProps) {
                   alt="FryDagger"
                   className="w-full h-auto md:hidden cursor-pointer"
                   loading="eager"
-                  fetchpriority="high"
+                  fetchPriority="high"
                   style={{ filter: 'drop-shadow(0 10px 40px rgba(217, 217, 217, 0.3))' }}
                   onTouchStart={handleTouchStart}
                   onTouchMove={handleTouchMove}
@@ -318,7 +318,7 @@ export default function FryDaggersContent({ onBack }: FryDaggersContentProps) {
                   alt="FryDagger"
                   className="w-full h-auto hidden md:block cursor-pointer"
                   loading="eager"
-                  fetchpriority="high"
+                  fetchPriority="high"
                   style={{ filter: 'drop-shadow(0 10px 40px rgba(217, 217, 217, 0.3))' }}
                   onTouchStart={handleTouchStart}
                   onTouchMove={handleTouchMove}
