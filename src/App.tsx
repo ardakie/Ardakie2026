@@ -49,6 +49,7 @@ function SectionWrapper() {
 
   useEffect(() => {
     if (normalizedSection) {
+      document.title = normalizedSection;
       setShowIntro(true);
       const timer = setTimeout(() => {
         setShowIntro(false);
@@ -163,6 +164,7 @@ function AppContent() {
   // Sadece ana sayfada (/) splash screen göster
   useEffect(() => {
     if (location.pathname === '/') {
+      document.title = 'Ardakie';
       const timer = setTimeout(() => {
         setShowSplash(false);
       }, 1700);
